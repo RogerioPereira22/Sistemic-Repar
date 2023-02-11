@@ -25,8 +25,8 @@ const start = async () => {
     mongoURL: process.env.MONGODB_URI,
     express: app,
     email: {
-      fromName: 'Payload CMS',
-      fromAddress: 'info@payloadcms.org',
+      fromName: 'Reparo sistemico',
+      fromAddress: 'rogeriojr2116@gmail.com',
       ...sendgridConfig,
     },
     onInit: () => {
