@@ -1,6 +1,4 @@
-web: yarn dev,
-
-"scripts": {
+web: {
     "dev": "nodemon cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
