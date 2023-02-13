@@ -4,7 +4,7 @@
           {
         "type": "node",
         "request": "launch",
-        "name": "Launch Program",
+        "name": "Sistemic-Repar",
         "env": {
           "PAYLOAD_CONFIG_PATH": "src/payload.config.ts",
         },
