@@ -62,7 +62,7 @@ export default buildConfig({
   ],
   cors: [
     process.env.PAYLOAD_PUBLIC_APP_URL,
-    'https://payloadcms.com',
+    'https://reparosistemicoriental.com/',
   ].filter(Boolean),
   admin: {
     webpack: (config) => ({
