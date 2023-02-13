@@ -2,10 +2,10 @@
   "name": "reparo-sistemico",
   "description": "Blank template - no collections",
   "version": "1.0.0",
-  "main": "src/server.ts",
+  "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server",
+    "start" : "node dist/server.js",
     "dev": "nodemon cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
