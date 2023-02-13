@@ -1,5 +1,5 @@
 {
-  "name": "Sistemic-Repar",
+  "name": "reparo-sistemico",
   "description": "Blank template - no collections",
   "version": "1.0.0",
   "main": "dist/server.js",
@@ -36,7 +36,7 @@
   },
   "engines" : { 
     "npm" : ">=8.0.0 <9.4.2",
-    "node" : "=14.15.5",
+    "node" : "=18.13.0",
     "yarn" : "=1.22.19"
   }
 }
