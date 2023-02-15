@@ -1,3 +1,4 @@
+import { nestedDocs } from '@payloadcms/plugin-nested-docs';
 import { buildConfig } from 'payload/config';
 import path from 'path';
 import formBuilder from '@payloadcms/plugin-form-builder';
@@ -11,7 +12,7 @@ import { MainMenu } from './globals/MainMenu';
 import { Posts } from './collections/Posts';
 import { Media } from './collections/Media';
 import richText from './fields/richText';
-import nestedDocs from '@payloadcms/plugin-nested-docs';
+
 
 
 export default buildConfig({
