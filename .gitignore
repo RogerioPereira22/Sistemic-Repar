@@ -95,7 +95,6 @@ out
 # public
 
 # vuepress build output
-.vuepress/dist
 
 # vuepress v2.x temp and cache directory
 .temp
@@ -162,7 +161,4 @@ out
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
 
 # Apple MacOS operating system
-.DS_Store
 
-media
-build
