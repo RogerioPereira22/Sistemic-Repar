@@ -13,6 +13,7 @@ import { Media } from './collections/Media';
 import richText from './fields/richText';
 import { buildConfig } from 'payload/config';
 
+
 export default buildConfig({
   collections: [
     CaseStudies,
