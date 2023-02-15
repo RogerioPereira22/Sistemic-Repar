@@ -23,7 +23,6 @@
     "src/scripts/migrateVersions.ts"
   ],
   "exclude": [
-    "dist",
     "build",
   ],
   "ts-node": {
