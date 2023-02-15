@@ -1,4 +1,3 @@
-import { buildConfig } from 'payload/config';
 import path from 'path';
 import nestedDocs from '@payloadcms/plugin-nested-docs';
 import formBuilder from '@payloadcms/plugin-form-builder';
@@ -12,6 +11,7 @@ import { MainMenu } from './globals/MainMenu';
 import { Posts } from './collections/Posts';
 import { Media } from './collections/Media';
 import richText from './fields/richText';
+import { buildConfig } from 'payload/config';
 
 export default buildConfig({
   collections: [
