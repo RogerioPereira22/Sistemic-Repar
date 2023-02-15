@@ -27,7 +27,7 @@ git clone https://github.com/RogerioPereira22/Sistemic-Repar.git
 
 **Navigate to folder and install dependencies**
 
-Type `cd ./payload-website` and then `yarn` or `npm install --legacy-peer-deps` to add all required dependencies.
+Type `cd ./reparo-sistemico-website` and then `yarn` or `npm install --legacy-peer-deps` to add all required dependencies.
 
 
 **Fire up the development server**
