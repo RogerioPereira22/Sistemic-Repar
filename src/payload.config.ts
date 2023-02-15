@@ -1,4 +1,4 @@
-import { nestedDocs } from '@payloadcms/plugin-nested-docs';
+import nestedDocs  from '@payloadcms/plugin-nested-docs';
 import { buildConfig } from 'payload/config';
 import path from 'path';
 import formBuilder from '@payloadcms/plugin-form-builder';
