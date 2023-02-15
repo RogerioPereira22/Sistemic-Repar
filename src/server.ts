@@ -38,7 +38,7 @@ const start = async () => {
  const port = process.env.PORT
  const port2 = process.env.PORT2
   app.listen(port || port2, async () => {
-    payload.logger.info(`Server listening on port ${process.env.PORT} or ${process.env.PORT}`);
+    payload.logger.info(`Server listening on port ${process.env.PORT} or ${process.env.PORT2}`);
   });
 }
 
