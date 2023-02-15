@@ -27,7 +27,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.18.2",
     "nodemailer-sendgrid": "^1.0.3",
-    "payload": "^1.6.9",
+    "payload": "^1.6.10",
     "wasm-pack": "^0.10.3"
   },
   "devDependencies": {
