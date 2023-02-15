@@ -63,7 +63,7 @@ export default buildConfig({
   ],
   cors: [
     process.env.PAYLOAD_PUBLIC_APP_URL,
-    'https://reparosistemicoriental.com/',
+    'https://sistemic-repar-production.up.railway.app/',
   ].filter(Boolean),
   admin: {
     webpack: (config) => ({
