@@ -51,6 +51,7 @@
     "@types/node": "^18.13.0",
     "copyfiles": "^2.4.1",
     "cross-env": "^7.0.3",
+    "install-peers": "^1.0.4",
     "lodash": "^4.17.21",
     "nodemon": "^2.0.20",
     "ts-node": "^9.1.1",
