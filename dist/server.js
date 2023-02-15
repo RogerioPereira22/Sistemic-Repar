@@ -66,7 +66,7 @@ var sendgridConfig = {
     }),
 };
 var start = function () { return __awaiter(void 0, void 0, void 0, function () {
-    var port, port2;
+    var port;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: 
@@ -86,10 +86,9 @@ var start = function () { return __awaiter(void 0, void 0, void 0, function () {
                 // Initialize Payload
                 _a.sent();
                 port = process.env.PORT;
-                port2 = process.env.PORT2;
-                app.listen(port || port2, function () { return __awaiter(void 0, void 0, void 0, function () {
+                app.listen(port, function () { return __awaiter(void 0, void 0, void 0, function () {
                     return __generator(this, function (_a) {
-                        payload_1.default.logger.info("Server listening on port ".concat(process.env.PORT, " or ").concat(process.env.PORT2));
+                        payload_1.default.logger.info("Server listening on port ".concat(process.env.PORT));
                         return [2 /*return*/];
                     });
                 }); });
