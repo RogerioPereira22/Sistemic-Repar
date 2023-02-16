@@ -23,6 +23,8 @@
     "@payloadcms/plugin-nested-docs": "^1.0.4",
     "@payloadcms/plugin-seo": "^1.0.9",
     "cjs": "^0.0.11",
+    "cjs-loader": "^0.1.0",
+    "cjs-module": "^1.5.0",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "express": "^4.18.2",
