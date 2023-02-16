@@ -77,7 +77,7 @@ exports.default = (0, config_1.buildConfig)({
     ],
     cors: [
         process.env.PAYLOAD_PUBLIC_APP_URL,
-        'https://reparosistemicoriental.com/',
+        'https://reparo-sistemico.herokuapp.com/',
     ].filter(Boolean),
     admin: {
         webpack: function (config) { return (__assign(__assign({}, config), { resolve: __assign(__assign({}, config.resolve), { alias: __assign(__assign({}, config.resolve.alias), { react: path_1.default.resolve(__dirname, '../node_modules/react'), 'react-dom': path_1.default.resolve(__dirname, '../node_modules/react-dom'), 'react-router-dom': path_1.default.resolve(__dirname, '../node_modules/react-router-dom') }) }) })); }
