@@ -35,7 +35,9 @@
   "exclude": [
     "node_modules",
   ],
-
+  "exports":[
+    "commonjs",
+  ],
   
   "ts-node": {
     "transpileOnly": true
