@@ -1,9 +1,18 @@
 {
   "compilerOptions": {
+    
     "paths": {
       "payload/generated-types": ["./src/payload-types.ts"]
     },
     "target": "es5",
+    
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module":"commonjs",
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
     "lib": [
       "dom",
       "dom.iterable",
@@ -16,6 +25,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "jsx": "react",
+    "sourceMap": true,
   },
   "include": [
     "src",
@@ -25,7 +35,8 @@
   "exclude": [
     "node_modules",
   ],
-  "module": "commonjs",
+
+  
   "ts-node": {
     "transpileOnly": true
   }
