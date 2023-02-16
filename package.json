@@ -3,6 +3,7 @@
   "description": "Blank template - no collections",
   "version": "1.0.0",
   "main": "dist/server.js",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "node dist/server",
@@ -18,7 +19,6 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.192.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "@payloadcms/plugin-cloud-storage": "^1.0.12",
     "@payloadcms/plugin-form-builder": "^1.0.13",
     "@payloadcms/plugin-nested-docs": "^1.0.4",
