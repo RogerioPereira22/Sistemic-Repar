@@ -25,7 +25,11 @@
   "exclude": [
     "node_modules",
   ],
+  "exports":[
+    "module": "commonjs",
+  ],
   "ts-node": {
     "transpileOnly": true
   }
+  
 }
