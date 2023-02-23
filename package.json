@@ -3,7 +3,6 @@
   "description": "Blank template - no collections",
   "version": "1.0.0",
   "main": "dist/server.js",
-  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "node dist/server",
