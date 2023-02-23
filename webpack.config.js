@@ -2,9 +2,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './foo.js',
+  entry: 'dist/server.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'foo.bundle.js',
+    filename: 'server.js',
   },
 };
