@@ -62,8 +62,7 @@ export default buildConfig({
     }),
   ],
   cors: [
-    process.env.PAYLOAD_PUBLIC_APP_URL,
-    'https://reparo-sistemico.azurewebsites.net/',
+    process.env.PAYLOAD_PUBLIC_APP_URL
   ].filter(Boolean),
   admin: {
     webpack: (config) => ({
