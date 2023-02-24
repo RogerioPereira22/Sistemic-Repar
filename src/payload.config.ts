@@ -62,7 +62,8 @@ export default buildConfig({
     }),
   ],
   cors: [
-    process.env.PAYLOAD_PUBLIC_APP_URL
+    process.env.PAYLOAD_PUBLIC_APP_URL,
+    'https://p46mrkn9aw.us-east-2.awsapprunner.com/',
   ].filter(Boolean),
   admin: {
     webpack: (config) => ({

@@ -36,7 +36,8 @@ const start = async () => {
 
   // Add your own express routes here
  const port = process.env.PORT
-  app.listen(port, async () => {
+ const port2 = process.env.PORT2
+  app.listen(port || port2, async () => {
     payload.logger.info(`Server listening on port ${process.env.PORT}`);
   });
 }
