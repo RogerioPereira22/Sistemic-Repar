@@ -63,7 +63,7 @@ export default buildConfig({
   ],
   cors: [
     process.env.PAYLOAD_PUBLIC_APP_URL,
-    'https://reparo-sistemico.herokuapp.com/',
+    'https://reparo-sistemico.azurewebsites.net/',
   ].filter(Boolean),
   admin: {
     webpack: (config) => ({
